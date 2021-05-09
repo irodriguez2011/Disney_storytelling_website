@@ -1,0 +1,153 @@
+body {
+    background-color:rgba(209, 162,197, 0.9);
+}
+
+/* page content and organization */
+
+#container {
+    width: 1280px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.pageContent {
+    margin: 10px;
+}
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+}
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 40px;
+    box-shadow: 
+    0 0 30px 10px #fff,  
+    0 0 23px 10px #a0227e;
+}
+
+/*  images*/
+
+/* Images*/
+
+.imageBorders {
+    border-radius: 10px;
+}
+
+#rapunzelBaby {
+    display:block;
+    width:600px;
+    height: 363px;
+    margin: 0 auto; 
+
+}
+
+#introToWitch {
+    float: left; 
+    width: 400px;
+    height: 330px; 
+    margin: 5px;
+
+}
+
+#FlynnAppears {
+    display: inline-block;
+    float: left;
+    width: 400px;
+    height: 271px;
+    padding-left: 210px;
+    margin: 5px;
+}
+
+#FryingPan {
+   display: inline-block; 
+    width: 400px;
+    height: 271px; 
+    margin: 5px;
+}
+
+/*  Paragraphs*/
+p {
+    font-family: 'Life Savers', cursive;
+    font-size: 18pt; 
+    font-weight: bold;
+    line-height: 1cm;
+}
+
+#firstPara {
+    height: auto; 
+    margin: 5px;
+    float:left;
+    
+}
+
+#secondPara {
+    height:331px;
+    width: 845px;
+    float:left;
+    background-color: 
+
+}
+
+#thirdPara {
+    height: auto; 
+
+    margin: 5px;
+    float:left;
+    display: inline-block;
+    background-color: 
+}
+
+#fourthPara {
+    height: 250px; 
+    float:left;
+    
+}
+
+#dadQuote {
+    text-align: center;
+}
+
+
+/* links  */ 
+
+#bottomRightLink {
+    text-align: right;
+    display: inline-block;
+    border-left: 2px solid grey;
+    padding-left: 5px;
+
+}
+
+#bottomLeftLink {
+    text-align: left;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'WaltographRegular';
+    font-size: 18pt;
+}
+a {
+
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(209, 162,197);
+}
+
+a:hover {
+    border-bottom: 3px solid #990000;
+}
+

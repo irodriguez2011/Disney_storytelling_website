@@ -1,0 +1,155 @@
+body {
+    background-color: rgba(37, 142, 199, 0.7);
+}
+
+#container {
+    width: 1280px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    overflow:hiddens;
+}
+
+.pageContent {
+    margin: 10px;
+}
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+}
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 40px;
+    box-shadow: 
+    0 0 30px 10px #fff,  
+    0 0 23px 10px rgb(110, 209, 204);
+}
+ 
+/* Images */ 
+.imageBorders {
+    border-radius: 10px;
+}
+
+#aladdinGenie {
+    display: inline;
+    float: left;
+    margin: 5px;
+}
+
+ #jasmineAladdinDiv{
+     
+     width: 475px;
+     padding-left: 375px;
+     padding-bottom: 2px;
+     float:left;
+     margin-right: 7px;
+ }
+
+#jasminAndAladdin {
+    margin: 0 auto;
+    width: 475px;
+    height: 319px;
+    display: block;
+}
+
+#aladdainAndJafarDiv{ 
+    float:left;
+}
+
+#aladdinAndJafar {
+    float:left;
+    width:400px;
+   
+}
+
+#jasminEndStory {
+    display: block;
+   position:relative;
+   left: 50px;
+   bottom: 20px;
+}
+
+/* paragraph element*/ 
+
+#quote {
+    
+    float: left;
+    width: 400px;
+    height: 321px;
+    position:relative;
+}
+
+#centerQuote {
+    display:inline-block;
+    position: absolute;
+    top:30px;
+    border-top: 2px solid #258EC7;
+    border-bottom: 2px solid #258EC7;
+
+}
+
+#textBorder {
+    font-family: 'Life Savers', cursive;
+    font-weight: none;
+    font-weight: 16pt;
+}
+
+p {
+    font-family: 'Life Savers', cursive;
+    font-size: 18pt; 
+    font-weight: bold;
+    line-height: 1cm;
+}
+
+#lastParagraph {
+    float: left;
+    width: 800px;
+
+}
+/* Bottom page links */
+
+h2, h3 {
+    font-family: 'WaltographRegular';
+    font-size: 18pt;
+}
+
+#bottomRightLink {
+    text-align: right;
+    display: inline-block;
+    border-left: 2px solid grey;
+    padding-left: 5px;
+
+}
+
+#bottomLeftLink {
+    text-align: left;
+    display: inline-block;
+}
+
+#navlinks {
+    float:left; 
+    width:100px;
+    position:relative;
+    left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(37, 142, 199);
+}
+
+a:hover {
+    border-bottom: 3px solid #258ec7;
+}

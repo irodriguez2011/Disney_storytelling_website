@@ -1,0 +1,267 @@
+
+body {
+    background-image: url("princess\ background\ image.jpg");
+    margin: 15px;
+   
+}
+
+.princessContainer {
+    margin: 0 auto; 
+    width: 500px;
+    height:500px;
+    position: relative; 
+    top: 20px;
+}
+
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 40px;
+    
+    padding-top: 5px;
+    box-shadow: 
+    inset 0 0 50px #fff,      
+    inset 20px 0 80px #fff,   
+    inset -20px 0 80px #0ff,  
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}
+
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+
+}
+
+h2 {
+    font-family: 'WaltographRegular';
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: 2px 2px 10px #8492d1,
+    3px 2px 5px #fff;
+}
+
+#jasmin {
+    margin: 0 auto; 
+    padding-top: 30px;
+    width:100px; 
+    height: 100px;
+    border-radius: 30%;
+
+}
+
+#jasmin:hover .images {
+    opacity: 1;
+}
+#jasmin:hover #imgLink1 {
+    opacity: 1;
+}
+
+.images {
+    transition: .5s ease;
+    
+}
+
+#imgLink1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    bottom: 50px; 
+    left: 70px; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    background-color: rgba(255, 253, 253, 0.6);
+    color: black;
+    font-size: 15px;
+    width: 60px;
+    height: auto;
+    text-align: center;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Life Savers', cursive;
+      font-weight: bold;
+  }
+
+  #jasminLink:hover {
+      color:royalblue;
+      font-weight: bold;
+  }
+
+
+
+#moana {
+        position: relative;
+        left: 95px;
+        bottom: 16px;
+        width: 100px;
+        height: auto;
+}
+
+#moana:hover .image2 {
+    opacity: 1;
+}
+
+#moana:hover .imgLink2 {
+    opacity: 1;
+}
+
+.image2 {
+    transition: .5s ease;
+    position:relative;
+    top:2px;
+}
+
+.imgLink2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    bottom: 50px; 
+    left: 70px; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#moanaLink:hover {
+    color:rgb(122, 37, 15);
+    font-weight: bold;
+}
+
+/* this is Tiana html */
+
+#tiana {
+    position: relative;
+    left: 24%;
+    width: 100px;
+    height: auto;
+}
+
+#tiana:hover .image3 {
+opacity: 1;
+}
+
+#tiana:hover .imgLink3 {
+opacity: 1;
+}
+
+.image3 {
+transition: .5s ease;
+}
+
+.imgLink3 {
+transition: .5s ease;
+opacity: 0;
+position: relative;
+bottom: 50px; 
+left: 70px; 
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+#tianaLink:hover {
+color:rgb(91, 163, 57);
+font-weight: bold;
+}
+
+/* This is Rapunzel image html */
+
+#rapunzel {
+    position: relative;
+    left: 58%; 
+    bottom: 122px;  
+    width: 100px; 
+    height: auto;
+    
+}
+
+#rapunzel:hover .image4 {
+opacity: 1;
+}
+
+#rapunzel:hover .imgLink4 {
+opacity: 1;
+}
+
+.image4 {
+transition: .5s ease;
+}
+
+.imgLink4 {
+transition: .5s ease;
+opacity: 0;
+position: relative;
+bottom: 50px; 
+left: 70px; 
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+#rapunzelLink:hover {
+color:rgb(167, 68, 142);
+font-weight: bold;
+}
+
+/* Mulan Css */
+
+#mulan {
+    position: relative;
+    width: 100px;  
+    height: auto;
+}
+
+#mulan:hover .image5 {
+opacity: 1;
+}
+
+#mulan:hover .imgLink5 {
+opacity: 1;
+}
+
+.image5 { 
+transition: .5s ease;
+position: relative;
+bottom: 381px; 
+left: 305px; 
+} 
+
+.imgLink5 {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+bottom: 418px;   
+left: 355px;   
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
+#mulanLink:hover {
+color:rgb(126, 10, 10);
+font-weight: bold;
+}
+
+
+#beginText {
+    position: relative;
+    bottom: 200px;
+}

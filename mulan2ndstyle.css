@@ -1,0 +1,151 @@
+body {
+    background-color:rgba(153, 0,0, 0.9);
+}
+
+/* page content and organization */
+
+#container {
+    width: 1280px;
+    height: 2020px;
+    background-color: white;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.pageContent {
+    margin: 10px;
+}
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+}
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 40px;
+    box-shadow: 
+    0 0 30px 10px #fff,  
+    0 0 23px 10px #f190a1;
+}
+/* Images*/
+
+.imageBorders {
+    border-radius: 10px;
+}
+
+#mulanRocket {
+    display:block;
+    width:600px;
+    height: 363px;
+    margin: 0 auto; 
+
+}
+
+#mulanSad {
+    float: left; 
+    width: 400px;
+    height: 330px; 
+    margin: 5px;
+
+}
+
+#mulanSavesEmperor {
+    width: 425px;
+    height: 326px; 
+    margin: 5px; 
+    float: left; 
+    display: inline-block;
+}
+
+#mulanHugsDad {
+    display:block;
+    width:600px;
+    height: 342px;
+    margin: 0 auto; 
+
+}
+
+/*  paragraphs*/
+p {
+    font-family: 'Life Savers', cursive;
+    font-size: 18pt; 
+    font-weight: bold;
+    line-height: 1cm;
+}
+
+
+#firstPara {
+    height: auto; 
+    margin: 5px;
+    float:left;
+    
+}
+
+#secondPara {
+    height:auto;
+    width: 845px;
+    float:left;
+}
+
+#thirdPara {
+    height: auto; 
+    width: 790px;
+    margin: 5px;
+    float:left;
+    display: inline-block;
+}
+
+#fourthPara {
+    height: 250px; 
+    float:left;
+}
+
+#dadQuote {
+    text-align: center;
+}
+
+
+/* links*/
+#navLinks {
+
+    position: relative; 
+    top: 289px;
+}
+
+#bottomRightLink {
+    text-align: right;
+    display: inline-block;
+    border-left: 2px solid grey;
+    padding-left: 5px;
+
+}
+
+#bottomLeftLink {
+    text-align: left;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'WaltographRegular';
+    font-size: 18pt;
+}
+a {
+
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f190a1;
+}
+
+a:hover {
+    border-bottom: 3px solid #990000;
+}

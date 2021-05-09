@@ -1,0 +1,106 @@
+body {
+    background-color: rgba(37, 142, 199, 0.7);
+}
+
+#container {
+    width: 1280px;
+    height: 1300px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.pageContent {
+    margin: 10px;
+}
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+}
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 40px;
+    box-shadow: 
+    0 0 30px 10px #fff,  /* inner white */
+    0 0 23px 10px rgb(110, 209, 204);
+}
+
+/* Images */
+
+#jasminePic1 {
+    margin: 15px; 
+    border: 2px solid transparent; 
+    border-radius: 25px;
+    padding: 5px;
+    float: left;
+
+}
+
+.jasminePeasant {
+    float:right;
+    border-radius: 5px;
+}
+
+
+.images {
+    border-radius: 25px;
+    
+}
+
+#aladdinCave {
+    float: left;
+    margin: 5px;
+}
+
+/*  Bottom links to go to next page*/
+h1,h2 {
+    font-family: 'WaltographRegular';
+    font-size: 18pt;
+    display: inline;
+    text-align:center;
+}
+
+#bottomRightHeader {
+    border-left: 2px solid grey;
+    padding-left: 5px;
+}
+
+
+p {
+    font-family: 'Life Savers', cursive;
+    font-size: 18pt; 
+    font-weight: bold;
+    line-height: 1cm;
+}
+
+
+#centerParagraph {
+    text-align: center;
+}
+
+#lastParagraph {
+    width: 100%;
+    float: left;
+}
+
+/* Links*/ 
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(37, 142, 199);
+}
+
+a:hover {
+    border-bottom: 3px solid #258ec7;
+}
+

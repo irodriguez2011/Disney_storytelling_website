@@ -1,0 +1,142 @@
+body {
+    background-color:rgba(153, 0,0, 0.9);
+}
+
+/* page content and organization */
+
+#container {
+    width: 1280px;
+    height: 1400px;
+    background-color: white;
+    margin: 0 auto;
+    overflow:hiddens;
+}
+
+.pageContent {
+    margin: 10px;
+}
+
+#headerText {
+    font-family: 'WaltographRegular';
+    font-size: 40pt; 
+    position: relative;
+    bottom: 10px;
+}
+
+#headerBanner {
+    width: auto; 
+    height: 60px; 
+    background-color: rgba(255, 253, 253, 0.5); 
+    margin: 10px; 
+    text-align: center; 
+    font-size: 40px;
+    box-shadow: 
+    0 0 30px 10px #fff,  
+    0 0 23px 10px #f190a1;
+}
+
+/*  Images */ 
+.imageBorders {
+    border-radius: 10px;
+}
+
+
+#MulanandDad {
+    margin: 5px;
+    width: 400px;
+    height: 370px;
+    float: left;
+}
+
+#MulanCutsHair {
+    float: left;
+    width: 450px; 
+    height: 326px; 
+    margin: 5px;
+}
+
+#mulanTrainingCamp {
+    width:300px; 
+    height: 255px;
+    padding-left: 300px;
+    padding-right: 100px;
+    float:left;
+    margin: 5px;
+  
+}
+
+/* paragraphs */
+
+p {
+    font-family: 'Life Savers', cursive;
+    font-size: 18pt; 
+    font-weight: bold;
+    line-height: 1cm;
+}
+
+#firstParagraph {
+    margin: 5px;
+    width: 810px; 
+    height: 325px;
+ 
+    float: left;
+}
+
+#secondPara {
+    float:left;
+    width: 750px;
+    height: 326px;
+    margin: 5px;
+}
+
+#thirdPara {
+    
+    float:left; 
+    margin: 5px;
+    height: auto;
+}
+
+#quote {
+    float: left;
+    height: 270px;
+    width: 500px;
+ 
+    display: block; 
+}
+
+/* links*/
+#navLinks {
+    position: relative;
+    top: 60px;
+}
+
+#bottomRightLink {
+    text-align: right;
+    display: inline-block;
+    border-left: 2px solid grey;
+    padding-left: 5px;
+
+}
+
+#bottomLeftLink {
+    text-align: left;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'WaltographRegular';
+    font-size: 18pt;
+}
+a {
+
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f190a1;
+}
+
+a:hover {
+    border-bottom: 3px solid #990000;
+}
